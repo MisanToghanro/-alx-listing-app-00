@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "@/constants";
 import Pill from "@/components/layout/Pill ";
 import { useState } from "react";
-import PropertyCard from "@/components/PropertyCard";
+import PropertyCard from "@/components/layout/PropertyCard";
 
 const Home:React.FC = ()=>{
 
