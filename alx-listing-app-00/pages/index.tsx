@@ -18,6 +18,7 @@ const Home:React.FC = ()=>{
 ];
 
 
+
   return(
     <div>
       {/* hero section */}
