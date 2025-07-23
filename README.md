@@ -1,111 +1,40 @@
-# -alx-listing-app-00
-# 🏡 Luxury Property Listing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## 📌 Project Description
+## Getting Started
 
-This project involves building a responsive **property listing page** using **React**, **TypeScript**, and **Tailwind CSS** within a **Next.js** framework. It showcases a collection of luxury properties, complete with filtering functionality, a visually appealing hero section, and a modular layout system. The application is responsive across mobile, tablet, and desktop devices.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🎯 Learning Objectives
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-By completing this project, you will:
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-- Build a fully responsive web layout using Tailwind CSS.
-- Create reusable layout components (`Header`, `Footer`, `Layout`) in React.
-- Utilize TypeScript interfaces for type safety and consistency.
-- Organize and structure a Next.js application using best practices.
-- Render dynamic property data from a sample array.
-- Add interactive filtering to refine property listings.
-- Decompose complex UI designs into logical and reusable components.
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
----
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-## 📋 Requirements
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### ✅ Technical Requirements
+## Learn More
 
-- Framework: **Next.js**
-- Language: **TypeScript**
-- Styling: **Tailwind CSS**
-- Responsive design support for **mobile**, **tablet**, and **desktop**
-- Proper folder and component structure
-- Functional React components with TypeScript typings
+To learn more about Next.js, take a look at the following resources:
 
-### ✅ Functional Requirements
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-#### Layout Components
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- **Header**: Includes navigation links, logo, and search bar.
-- **Footer**: Contains links and footer information.
-- **Layout Wrapper**: Ensures consistent layout across pages.
+## Deploy on Vercel
 
-#### Home Page
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Hero Section**: Full-screen background image with centered call-to-action text.
-- **Filter Section**: Clickable pill-style filters to sort property listings.
-- **Property Listings**: Grid of properties rendered from sample data, showing:
-  - Property image
-  - Property name
-  - Price
-  - Rating
-
-#### Data Management
-
-- Use a **typed interface** for the property data.
-- Render properties from a **mock data array** (`PROPERTYLISTINGSAMPLE`).
-
----
-
-## 🔧 Best Practices
-
-### Component Organization
-
-- Use a consistent and modular folder structure.
-- Split layout and feature components.
-- Keep components focused and reusable.
-
-### Styling
-
-- Utilize Tailwind’s utility-first approach.
-- Design with a **mobile-first** mindset.
-- Maintain consistent spacing, fonts, and sizing.
-
-### TypeScript
-
-- Define clear interfaces for all component props.
-- Type all React components and functions.
-- Leverage TypeScript to minimize bugs and improve maintainability.
-
-### Performance
-
-- Optimize and compress images for web.
-- Use loading states or lazy loading for non-critical assets.
-
-### Accessibility (a11y)
-
-- Use semantic HTML tags.
-- Provide meaningful `alt` attributes for all images.
-- Ensure keyboard accessibility and contrast compliance.
-
----
-
-## ✅ Expected Outcomes
-
-- A **beautiful, responsive** property listing page.
-- Proper **component composition** and code organization.
-- Functional **filtering** and dynamic rendering of data.
-- Consistent **styling and layout** using Tailwind CSS.
-- Codebase with strong **TypeScript typing** and structure.
-
----
-
-## 🚀 Technologies Used
-
-- **Next.js** (App Router)
-- **React** (Functional Components)
-- **TypeScript**
-- **Tailwind CSS**
-
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
